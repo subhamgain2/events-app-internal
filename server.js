@@ -17,6 +17,8 @@ app.use(bodyParser.json());
 // mock events data - for a real solution this data should be coming 
 // from a cloud data store
 const mockEvents = {
+
+const var1 = 'var1';
     events: [
         { title: 'an event', id: 1, description: 'something really cool' },
         { title: 'another event', id: 2, description: 'something even cooler' }
